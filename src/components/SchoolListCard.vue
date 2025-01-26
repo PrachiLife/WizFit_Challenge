@@ -52,7 +52,7 @@ export default defineComponent({
     border: 1px solid #E6E7E9;
     border-top: 0px;
     border-radius: 5px;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: calc(100vw - 15px);
 }
 .school-list-heading{
@@ -103,7 +103,7 @@ export default defineComponent({
     align-items: center;
 }
 .all-school-list{
-    padding: 35px 0px;
+    padding-top: 35px;
     display:flex;
     justify-content: center;
 }

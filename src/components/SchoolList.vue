@@ -3,6 +3,7 @@
     <div class="school-list-player">
         <img src="../assets/player.png"/>
     </div>
+    <!-- school list card -->
     <school-list-card/>
   </div>
 </template>
@@ -12,11 +13,6 @@ import { defineComponent } from 'vue';
 import SchoolListCard from './SchoolListCard.vue';
 export default defineComponent({
   components: { SchoolListCard },
-    setup(){
-        return{
-
-        }
-    }
 })
 </script>
 

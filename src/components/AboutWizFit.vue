@@ -38,6 +38,7 @@
     color: white;
     gap: 17px;
     padding: 18px;
+    cursor: pointer;
 }
 .about-wizFit-arrow{
     width: 0; 
